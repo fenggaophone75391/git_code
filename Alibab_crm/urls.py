@@ -23,7 +23,5 @@ urlpatterns = [
     url(r'^logout/', account.logout, name='logout'),
     url(r'^index/', consultant.index),
     url(r'^reg/', account.reg, name='reg'),
-
     url(r'crm/', include('crm.urls'))
-
 ]
